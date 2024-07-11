@@ -56,7 +56,6 @@ const matchesRating = (movie, rating) => {
   }
 }
 
-
   const filteredMovies = movies.filter((movie) =>
     matchesGenre(movie, genre) && 
   matchesRating(movie, rating) &&

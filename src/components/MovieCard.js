@@ -16,6 +16,11 @@ export default function MovieCard({ movie, isWatchlisted, toggleWatchlist }) {
     return "rating-bad";
   };
 
+  // Check if movie is defined and has the necessary properties
+  if (!movie || !movie.image || !movie.title || !movie.genre || movie.rating === undefined) {
+    return null; // or some fallback UI
+  }
+
   return (
     <div key={movie.id} className="movie-card">
       <img

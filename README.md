@@ -18,3 +18,5 @@ Moviedux is a modern web application designed to help movie enthusiasts find the
 - **Data Handling:** JSON
 
 Moviedux provides a user-friendly interface for discovering and managing movies, making it an essential tool for any movie lover.
+
+https://moviedux-eight.vercel.app/
